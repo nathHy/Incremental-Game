@@ -1,0 +1,36 @@
+<!DOCTYPE html5>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript" src="../js/main.js"></script>
+</head>
+<body>
+
+	<div id='gameArea'>
+		<div id="clicker">
+			<p id="counter"></p>
+		</div>
+		<div id="townCenter">
+			<h1>Click the tree</h1>
+			<img src="../img/dirtpath.png" style="position:absolute;top:260px" width='50px' height='100px' onclick="moveToMap('lumberYard')">
+			<img src="../img/dirtpath.png" style="position:absolute;left:1230px;top:260px" width='50px' height='100px' onclick="moveToMap('quarry')"> 
+		</div>
+		<div id="lumberYard">
+			<img src="../img/dirtpath.png" style="position:absolute;top:260px" width='50px' height='100px' onclick="moveToMap('')">
+			<img src="../img/dirtpath.png" style="position:absolute;left:1230px;top:260px" width='50px' height='100px' onclick="moveToMap('townCenter')">
+		</div>
+		<div id="quarry">
+			<img src="../img/dirtpath.png" style="position:absolute;top:260px" width='50px' height='100px' onclick="moveToMap('townCenter')">
+			<img src="../img/dirtpath.png" style="position:absolute;left:1230px;top:260px" width='50px' height='100px' onclick="moveToMap('')">
+		</div>
+	</div>
+</body>
+</html>
+
+
+
+<!--
+ 	width:1280px;
+	height: 720px;
+ -->
