@@ -161,5 +161,12 @@ function drawScene()
 
 function loadLumberYard()
 {
-	
+	var tag = $('<img src="../img/tree.png" onClick=increase(\'wood\') class="tree resource" />')
+	.css({
+		'left': treeData.left + 'px',
+		'top': treeData.top +'px',
+		'height':'100px',
+		'width':'100px'
+	});
+	$('#townCenter').append(tag);
 }

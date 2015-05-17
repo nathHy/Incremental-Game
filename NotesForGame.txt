@@ -1,0 +1,19 @@
+List of maps
+T - Town center
+L - Lumber Yard
+M - Mine
+Q - Quarry (?)
+B - Barracks
+U - Building Area (?)
+BF - Battle Field
+BL - Blacksmith
+
+Map
+
+[  ][BF][  ][  ]
+[  ][B ][  ][  ]
+[L ][T ][M ][ Q]
+[BL][U ][  ][  ]
+
+
+Character to move around? Walk to buildings to show buttons? Upgrades/items etc.
